@@ -29,6 +29,36 @@ Vue.use(VueRouter)
     component: EditarUsuario
   },
   {
+    path: '/Permissoes',
+    name: 'ListaPermissoes',
+    component: ListaPermissoes
+  },
+  {
+    path: '/Permissao',
+    name: 'NovaPermissao',
+    component: NovaPermissao
+  },
+  {
+    path: '/Permissao/:id',
+    name: 'EditarPermissao',
+    component: EditarPermissao
+  },
+  {
+    path: '/GruposUsuarios',
+    name: 'ListaGruposUsuarios',
+    component: ListaGruposUsuarios
+  },
+  {
+    path: '/GrupoUsuario',
+    name: 'NovoGrupoUsuario',
+    component: NovoGrupoUsuario
+  },
+  {
+    path: '/GrupoUsuario/:id',
+    name: 'EditarGrupoUsuario',
+    component: EditarGrupoUsuario
+  },
+  {
     path: '/about',
     name: 'About',
     // route level code-splitting
