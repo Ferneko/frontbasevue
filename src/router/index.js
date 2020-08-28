@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import ListaUsuarios from '../views/Usuarios/ListaUsuarios'
+import NovoUsuario from '../views/Usuarios/NovoUsuario'
+import EditarUsuario from '../views/Usuarios/EditarUsuario'
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,21 @@ Vue.use(VueRouter)
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/Usuarios',
+    name: 'ListaUsuarios',
+    component: ListaUsuarios
+  },
+  {
+    path: '/Usuario',
+    name: 'NovoUsuario',
+    component: NovoUsuario
+  },
+  {
+    path: '/Usuario/:id',
+    name: 'EditarUsuario',
+    component: EditarUsuario
   },
   {
     path: '/about',
