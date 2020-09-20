@@ -5,6 +5,14 @@ import ListaUsuarios from '../views/Usuarios/ListaUsuarios'
 import NovoUsuario from '../views/Usuarios/NovoUsuario'
 import EditarUsuario from '../views/Usuarios/EditarUsuario'
 
+import ListaPermissoes from '../views/Permissoes/ListaPermissoes'
+import NovaPermissao from '../views/Permissoes/NovaPermissao'
+import EditarPermissao from '../views/Permissoes/EditarPermissao'
+
+import ListaGruposUsuarios from '../views/GruposUsuario/ListaGruposUsuarios'
+import NovoGrupoUsuario from '../views/GruposUsuario/NovoGrupoUsuario'
+import EditarGrupoUsuario from '../views/GruposUsuario/EditarGrupoUsuario'
+
 Vue.use(VueRouter)
 
   const routes = [
